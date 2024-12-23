@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="final1.css">
+</head>
+<body>
+    <div class="scoreboard">
+        Player X: <span id="scoreX">0</span> | Player 0: <span id="scoreO">0</span>
+    </div>
+    <div class="game-mode">
+        <button class="reset-button" id="playerVsPlayer">Player & Player</button>
+        <button class="reset-button" id="playerVsComputer">Player & Computer</button>
+    </div>
+    <div class="timer" id="timer">15</div>
+
+    <div class="board" id="board"></div>
+    <div class="message" id="winnerMessage"></div>
+    <button class="reset-button" id="resetButton">Start over</button>
+    <br>
+    <button class="reset-button" id="resetScoreButton">Reset score</button>
+    <div id="confettiContainer"></div>
+
+    <script src="final1.js"></script>
+</body>
+</html>
